@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" spacing="10">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    
+    <!-- Calculator Display -->
+    <TextField editable="false" prefHeight="60" 
+               style="-fx-font-size: 24px; -fx-alignment: center-right; -fx-background-color: white; -fx-border-color: #ccc;"/>
+    
+    <!-- Calculator Button Grid -->
+    <GridPane hgap="5" vgap="5">
+        <!-- Row 0: Clear, delete and operations -->
+        <Button text="C" GridPane.columnIndex="0" GridPane.rowIndex="0" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: #ff3b30; -fx-text-fill: white;"/>
+        <Button text="DEL" GridPane.columnIndex="1" GridPane.rowIndex="0" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: #ff6b35; -fx-text-fill: white;"/>
+        <Button text="\%" GridPane.columnIndex="2" GridPane.rowIndex="0" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: #ff9500; -fx-text-fill: white;"/>
+        <Button text="/" GridPane.columnIndex="3" GridPane.rowIndex="0" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: #ff9500; -fx-text-fill: white;"/>
+        
+        <!-- Row 1: 7, 8, 9, multiply -->
+        <Button text="7" GridPane.columnIndex="0" GridPane.rowIndex="1" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: white; -fx-border-color: #ddd;"/>
+        <Button text="8" GridPane.columnIndex="1" GridPane.rowIndex="1" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: white; -fx-border-color: #ddd;"/>
+        <Button text="9" GridPane.columnIndex="2" GridPane.rowIndex="1" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: white; -fx-border-color: #ddd;"/>
+        <Button text="*" GridPane.columnIndex="3" GridPane.rowIndex="1" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: #ff9500; -fx-text-fill: white;"/>
+        
+        <!-- Row 2: 4, 5, 6, minus -->
+        <Button text="4" GridPane.columnIndex="0" GridPane.rowIndex="2" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: white; -fx-border-color: #ddd;"/>
+        <Button text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: white; -fx-border-color: #ddd;"/>
+        <Button text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: white; -fx-border-color: #ddd;"/>
+        <Button text="-" GridPane.columnIndex="3" GridPane.rowIndex="2" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: #ff9500; -fx-text-fill: white;"/>
+        
+        <!-- Row 3: 1, 2, 3, plus -->
+        <Button text="1" GridPane.columnIndex="0" GridPane.rowIndex="3" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: white; -fx-border-color: #ddd;"/>
+        <Button text="2" GridPane.columnIndex="1" GridPane.rowIndex="3" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: white; -fx-border-color: #ddd;"/>
+        <Button text="3" GridPane.columnIndex="2" GridPane.rowIndex="3" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: white; -fx-border-color: #ddd;"/>
+        <Button text="+" GridPane.columnIndex="3" GridPane.rowIndex="3" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: #ff9500; -fx-text-fill: white;"/>
+        
+        <!-- Row 4: 0, decimal, equals -->
+        <Button text="0" GridPane.columnIndex="0" GridPane.rowIndex="4" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: white; -fx-border-color: #ddd;"/>
+        <Button text="." GridPane.columnIndex="1" GridPane.rowIndex="4" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: white; -fx-border-color: #ddd;"/>
+        <Button text="=" GridPane.columnIndex="3" GridPane.rowIndex="4" minWidth="60" minHeight="50"
+                style="-fx-font-size: 18px; -fx-background-color: #007aff; -fx-text-fill: white;"/>
+    </GridPane>
+    
+</VBox> 

@@ -13,17 +13,19 @@ A simple Java calculator application built with JavaFX GUI framework.
 ## Project Structure
 
 ```
-src/
-├── main/
-│   ├── java/
-│   │   └── com/
-│   │       └── calculator/
-│   │           ├── Calculator.java          # Main application entry point
-│   │           ├── CalculatorController.java # GUI controller
-│   │           └── CalculatorEngine.java    # Core calculation logic
-│   └── resources/
-│       └── fxml/
-│           └── calculator.fxml              # JavaFX UI layout
+Calculator/
+├── pom.xml                                  # Maven configuration and dependencies
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── calculator/
+│       │           ├── Calculator.java          # Main application entry point
+│       │           ├── CalculatorController.java # GUI controller
+│       │           └── CalculatorEngine.java    # Core calculation logic
+│       └── resources/
+│           └── fxml/
+│               └── calculator.fxml              # JavaFX UI layout
 ```
 
 ## Technologies Used
@@ -35,8 +37,12 @@ src/
 ## How to Run
 
 1. Ensure you have Java 21 or higher installed
-2. Compile the project: `javac -d bin src/main/java/com/calculator/*.java`
-3. Run the application: `java -cp bin com.calculator.Calculator`
+2. Build the project: `mvn clean compile`
+3. Run the application: `mvn javafx:run`
+
+Alternatively, you can use:
+- `mvn clean package` to create a JAR file
+- `java -jar target/calculator-1.0-SNAPSHOT.jar` to run the JAR
 
 ## Development Approach
 

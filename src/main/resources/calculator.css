@@ -1,0 +1,17 @@
+/* Calculator container styling */
+.calculator-container {
+    background-color: black;
+    -fx-background-color: black;
+}
+
+/* Calculator display field styling */
+.calculator-display {
+    font-size: 32px;
+    -fx-font-size: 32px;
+    -fx-alignment: center-right;
+    background-color: transparent;
+    -fx-background-color: transparent;
+    border-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: white;
+}

@@ -13,23 +13,23 @@
   - [ ] Implement basic arithmetic operations (+, -, *, /)
   - [ ] Add percentage calculation functionality
   - [ ] Handle decimal point operations
-  - [ ] Implement clear and delete functionality
-- [ ] **Create CalculatorController.java** - FXML controller class
-  - [ ] Connect UI buttons to CalculatorEngine
-  - [ ] Handle button click events
-  - [ ] Update display field with calculations
+  - [x] Implement clear and delete functionality ✅
+- [x] **Create CalculatorController.java** - FXML controller class ✅
+  - [x] Connect UI buttons to CalculatorEngine
+  - [x] Handle button click events
+  - [x] Update display field with calculations
   - [ ] Implement input validation
 
 ### 3. UI Enhancements
-- [ ] **Connect FXML to Controller** - Link calculator.fxml to CalculatorController
+- [x] **Connect FXML to Controller** - Link calculator.fxml to CalculatorController ✅
 - [ ] **Add button functionality** - Make all buttons responsive
   - [ ] Number buttons (0-9)
   - [ ] Operation buttons (+, -, *, /, %)
-  - [ ] Clear button (C)
-  - [ ] Delete button (DEL)
+  - [x] Clear button (C) ✅
+  - [x] Delete button (DEL) ✅
   - [ ] Decimal point button (.)
   - [ ] Equals button (=)
-- [ ] **Improve display field** - Add proper text field with ID for controller access
+- [x] **Improve display field** - Add proper text field with ID for controller access ✅
 - [ ] **Add input validation** - Prevent invalid operations and multiple decimal points
 
 ### 4. Testing and Quality Assurance
@@ -66,6 +66,8 @@
 - [x] Created basic JavaFX calculator GUI layout
 - [x] Set up Maven project with JavaFX dependencies
 - [x] Implemented professional button layout and styling
-- [x] Added delete button functionality
+- [x] Added clear button (C) functionality ✅
+- [x] Added delete button (DEL) functionality ✅
+- [x] Connected FXML to CalculatorController ✅
 - [x] Pushed code to GitHub repository
 - [x] Fixed button positioning and alignment 
